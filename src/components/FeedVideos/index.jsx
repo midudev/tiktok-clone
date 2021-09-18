@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 const VIDEOS = [
   {
     id: 1,
-    author: 'ruziotaku',
+    author: 'aydeeeeeex',
     description: 'Es hora de llorar amigos… 😭😭😭 #anime #otaku #animeboy #otakuboy #parati #viral #xyzbca #fypシ',
     likes: 123,
     shares: 234,
@@ -15,7 +15,7 @@ const VIDEOS = [
   },
   {
     id: 2,
-    author: 'ruziotaku',
+    author: 'elansol',
     description: 'Es hora de llorar amigos… 😭😭😭 #anime #otaku #animeboy #otakuboy #parati #viral #xyzbca #fypシ',
     likes: 123,
     shares: 234,
@@ -23,6 +23,16 @@ const VIDEOS = [
     songTitle: 'sonido original - zzerok1',
     albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/81fd9366b0f1841e1e6990492b5c9004~c5_720x720.jpeg?x-expires=1632060000&x-signature=lJ7S3aE3YqHr8WbhkwXNIasqkZo%3D',
     src: 'https://v77.tiktokcdn.com/780f0b1a676c8e078a69658e24098516/61465293/video/tos/useast2a/tos-useast2a-ve-0068c002/6a62fc1f9c4f4daeae343028730a463f/?a=1233&br=3058&bt=1529&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=98CcQeMa4kag3&l=202109181456370101890710715A22BEA5&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M29zZTQ6Zm11ODMzNzczM0ApNmVmNjZkaWQzNzw1ZmQzZ2dxc2JvcjRfcy5gLS1kMTZzcy4xYTAtNi8yYTZfYmBjNi86Yw%3D%3D&vl=&vr='
+  },
+  {
+    id: 3,
+    author: 'vekpol',
+    description: 'Es hora de llorar amigos… 😭😭😭 #anime #otaku #animeboy #otakuboy #parati #viral #xyzbca #fypシ',
+    likes: 123,
+    shares: 234,
+    comments: 333,
+    songTitle: 'sonido original - zzerok1',
+    albumCover: 'https://v39-eu.tiktokcdn.com/5285b417830060b84b67441993ed8925/61466a85/video/tos/useast2a/tos-useast2a-pve-0037-aiso/11b2300eaac54a73bfea3cd72829da0b/?a=1233&br=1414&bt=707&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=98CcQeMa4kag3&l=202109181638010101890740282127CEB3&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M3d1aDN0dWRrNjMzODczNEApMzc8Ojg3OmQ2N2Q6N2g7aGdfLzRyc2loaGBgLS1kMS1zczI0MV41Yi1jMjIzYjNgYjI6Yw%3D%3D&vl=&vr='
   }
 ]
 

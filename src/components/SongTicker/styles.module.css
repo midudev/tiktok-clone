@@ -1,0 +1,6 @@
+.song {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-items: center;
+}

@@ -5,13 +5,15 @@ import VideoPlayerActions from './VideoPlayerActions.jsx'
 import VideoDescription from '../VideoDescription/index.jsx'
 import useIntersectionVideoPlayer from '../../hooks/useIntersectionVideoPlayer.js'
 
-export default function VideoPlayer ({ avatar, username, albumCover, description, songTitle, src }) {
+export default function VideoPlayer (props) {
   const video = useRef(null)
   const { playing, handlePlay } = useIntersectionVideoPlayer({ video })
 
   const playerClassName = clsx(styles.player, {
     [styles.hidden]: playing
   })
+
+  const { src } = props
 
   return (
     <div className={styles.wrapper}>
@@ -24,13 +26,8 @@ export default function VideoPlayer ({ avatar, username, albumCover, description
         src={src}
       />
       <i className={playerClassName} onClick={handlePlay} />
-      <VideoPlayerActions avatar={avatar} username={username} />
-      <VideoDescription
-        albumCover={albumCover}
-        username={username}
-        description={description}
-        songTitle={songTitle}
-      />
+      <VideoPlayerActions {...props} />
+      <VideoDescription {...props} />
     </div>
 
   )

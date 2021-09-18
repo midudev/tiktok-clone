@@ -4,19 +4,37 @@
 }
 
 .wrapper {
-
+  position: relative;
 }
 
 .player {
-  width: 62px;
-  height: 62px;
   background-color: transparent;
   background-image: url("assets/player.png");
-  background-size: contain;
-  background-repeat: no-repeat;
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 0;
-  position: absolute;
+  height: 62px;
   inset: 0;
   margin: auto;
+  position: absolute;
+  width: 62px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.actions {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.action {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

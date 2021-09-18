@@ -1,0 +1,112 @@
+.upload {
+  background: #fff;
+  padding: 16px;
+  min-height: 100vh;
+}
+
+.upload h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.upload form {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload input {
+  display: block;
+  padding: 4px;
+  line-height: 18px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  margin-top: 14px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.upload label {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.upload form > * {
+  margin-bottom: 16px;
+}
+
+.dnd {
+  border-radius: 5px;
+  background: #f4f4f4;
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+  aspect-ratio: 9/16;
+  transition: background-color .3s ease;
+}
+
+.dnd h4 {
+  color: #999;
+  font-size: 1.1rem;
+  margin: 0 0 16px;
+}
+
+.dnd h5 {
+  color: #aaa;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.dnd img {
+  margin-bottom: 24px;
+}
+
+.dndAccept {
+  background: rgb(221, 255, 202);
+}
+
+.dndReject {
+  animation: shake .5s infinite ease;
+  background: rgb(255, 202, 202);
+}
+
+.uploading {
+  animation: pulse .5s infinite ease;
+  background: #f4f4f4;
+}
+
+.uploaded {
+  background:rgb(182, 255, 140);
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: .8;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shake {
+  0% { transform: translate3d(1px, 1px, 0) rotate(1deg); }
+  15% { transform: translate3d(-2px, 0, 0) rotate(0deg); }
+  30% { transform: translate3d(1px, -1px, 0) rotate(-1deg); }
+  45% { transform: translate3d(2px, 1px, 0) rotate(0deg); }
+  60% { transform: translate3d(-2px, -2px, 0) rotate(1deg); }
+  75% { transform: translate3d(2px, 1px, 0) rotate(0deg); }
+  90% { transform: translate3d(-3px, 2px, 0) rotate(-1deg); }
+  100% { transform: translate3d(2px, -2px, 0) rotate(0deg); }
+}

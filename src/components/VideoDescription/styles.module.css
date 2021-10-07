@@ -17,16 +17,17 @@
 }
 
 .description {
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
   align-items: flex-end;
-  padding: 20px;
+  background: linear-gradient(0deg, rgba(0,0, 0,0.58) 0%, rgba(255,255,255,0) 60%);
+  bottom: 0;
   color: #fff;
-  justify-content: space-between;
+  display: flex;
   font-size: 13px;
-  background: linear-gradient(0deg, rgba(0,0, 0,0.58) 0%, rgba(255,255,255,0) 60%)
+  justify-content: space-between;
+  padding: 300px 20px 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
 }
 
 .author {

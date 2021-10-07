@@ -17,7 +17,6 @@ export function Share (props) {
         />
       </g>
       <path
-        fill='url(#prefix__b)'
         fillRule='evenodd'
         d='M25.8 16.8v15.6s-14.3-2-18.8 4.8C2.7 43.8 3.1 29.8 9.6 23c6.5-7 16.2-6 16.2-6z'
         clipRule='evenodd'

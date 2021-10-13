@@ -1,19 +1,17 @@
-import { supabase } from '../../services/supabase.js'
+import { supabase } from "@src/services/supabase.js";
 
-export default function Login () {
+export default function Login() {
   const handleClick = async () => {
     const { user, session, error } = await supabase.auth.signIn({
-      provider: 'twitter'
-    })
+      provider: "twitter",
+    });
 
-    console.log({ user, session, error })
-  }
+    console.log({ user, session, error });
+  };
 
   return (
     <div>
-      <button onClick={handleClick}>
-        Login with Twitter
-      </button>
+      <button onClick={handleClick}>Login with Twitter</button>
     </div>
-  )
+  );
 }
